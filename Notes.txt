@@ -1,0 +1,22 @@
+﻿S: SRP(Single responsibility principle)
+	-- Concerned about single focused purpose, a class should have only one reason to change i.e. class should have only one responsibility.
+
+O: OCP(Open Closed principle)
+	-- Open for Extension but closed for modification, once a module is developed and working as intended, it should not be modified to add 
+		new behavior or features. Instead, you should be able to extend its functionality without altering its existing code. 
+		This principle encourages the use of inheritance, interfaces, and abstract classes to achieve extensibility.
+
+L: LSP(Liskov substitution principle)
+	-- The parent cannot replace the child object seamlessly, The principle states that objects of a superclass should be replaceable with 
+		objects of a subclass without affecting the correctness of the program.
+
+I: ISP(Interface segregation principle)
+	-- Any interface should not force any method to class which is implementing it, In simplier words the ISP aims to prevent situations 
+		where a class is burdened with implementing a large number of methods that it doesn't need, 
+		leading to unnecessary dependencies and potential complications.
+
+D: DIP(Dependency inversion principle)
+	-- Object should be loosely coupled and injection should happen at runtime, High-level modules (such as business logic) should not be tightly coupled to 
+		low-level modules (such as database layer). Instead, both high-level and low-level modules should depend on interfaces (interfaces or abstract classes).
+		Interfaces (interfaces or abstract classes) should not be influenced by implementation details. 
+		Instead, implementation details should adhere to the contract defined by interfaces.
